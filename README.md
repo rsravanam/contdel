@@ -1,4 +1,4 @@
 # contdel
 Testing git branching and merging of dev to master
 test
-incoming reviews in gerrit
+incoming reviews in gerrit repo
