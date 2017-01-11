@@ -1,0 +1,307 @@
+2017-01-11 09:35:48,466+0530 WARN  [pool-15-thread-1] *SYSTEM uk.org.lidalia.sysoutslf4j.context.SysOutOverSLF4JInitialiser - Your logging framework class org.ops4j.pax.logging.slf4j.Slf4jLogger is not known - if it needs access to the standard println methods on the console you will need to register it by calling registerLoggingSystemPackage
+2017-01-11 09:35:48,476+0530 INFO  [pool-15-thread-1] *SYSTEM uk.org.lidalia.sysoutslf4j.context.SysOutOverSLF4J - Package org.ops4j.pax.logging.slf4j registered; all classes within it or subpackages of it will be allowed to print to System.out and System.err
+2017-01-11 09:35:48,506+0530 INFO  [pool-15-thread-1] *SYSTEM uk.org.lidalia.sysoutslf4j.context.SysOutOverSLF4J - Replaced standard System.out and System.err PrintStreams with SLF4JPrintStreams
+2017-01-11 09:35:48,516+0530 INFO  [pool-15-thread-1] *SYSTEM uk.org.lidalia.sysoutslf4j.context.SysOutOverSLF4J - Redirected System.out and System.err to SLF4J for this context
+2017-01-11 09:35:48,551+0530 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder - Properties:
+2017-01-11 09:35:48,563+0530 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   application-host='0.0.0.0'
+2017-01-11 09:35:48,566+0530 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   application-port='8081'
+2017-01-11 09:35:48,568+0530 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   fabric.etc='D:\ravi\nexus\nexus-3.2.0-01/etc/fabric'
+2017-01-11 09:35:48,573+0530 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   jetty.etc='D:\ravi\nexus\nexus-3.2.0-01/etc/jetty'
+2017-01-11 09:35:48,576+0530 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   karaf.base='D:\ravi\nexus\nexus-3.2.0-01'
+2017-01-11 09:35:48,578+0530 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   karaf.data='D:\ravi\nexus\sonatype-work\nexus3'
+2017-01-11 09:35:48,582+0530 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   karaf.etc='D:\ravi\nexus\nexus-3.2.0-01\etc\karaf'
+2017-01-11 09:35:48,585+0530 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   karaf.home='D:\ravi\nexus\nexus-3.2.0-01'
+2017-01-11 09:35:48,587+0530 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   karaf.instances='D:\ravi\nexus\sonatype-work\nexus3\instances'
+2017-01-11 09:35:48,589+0530 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   logback.etc='D:\ravi\nexus\nexus-3.2.0-01\etc\logback'
+2017-01-11 09:35:48,594+0530 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   nexus-args='D:\ravi\nexus\nexus-3.2.0-01/etc/jetty/jetty.xml,D:\ravi\nexus\nexus-3.2.0-01/etc/jetty/jetty-http.xml,D:\ravi\nexus\nexus-3.2.0-01/etc/jetty/jetty-requestlog.xml'
+2017-01-11 09:35:48,597+0530 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   nexus-context-path='/'
+2017-01-11 09:35:48,600+0530 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   nexus-edition='nexus-pro-edition'
+2017-01-11 09:35:48,602+0530 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   nexus-features='nexus-pro-feature'
+2017-01-11 09:35:48,607+0530 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   ssl.etc='D:\ravi\nexus\nexus-3.2.0-01/etc/ssl'
+2017-01-11 09:35:48,612+0530 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.Launcher - Java: 1.8.0_102, Java HotSpot(TM) 64-Bit Server VM, Oracle Corporation, 25.102-b14
+2017-01-11 09:35:48,615+0530 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.Launcher - OS: Windows 7, 6.1, amd64
+2017-01-11 09:35:48,617+0530 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.Launcher - User: DELL, en, C:\Users\DELL
+2017-01-11 09:35:48,618+0530 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.Launcher - CWD: D:\ravi\nexus\nexus-3.2.0-01
+2017-01-11 09:35:48,628+0530 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.Launcher - TMP: D:\ravi\nexus\sonatype-work\nexus3\tmp
+2017-01-11 09:35:48,648+0530 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.jetty.JettyServer - Starting
+2017-01-11 09:35:48,698+0530 INFO  [pool-15-thread-1] *SYSTEM org.eclipse.jetty.util.log - Logging initialized @17142ms
+2017-01-11 09:35:48,708+0530 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.jetty.JettyServer - Applying configuration: file:/D:/ravi/nexus/nexus-3.2.0-01/etc/jetty/jetty.xml
+2017-01-11 09:35:49,182+0530 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.jetty.JettyServer - Applying configuration: file:/D:/ravi/nexus/nexus-3.2.0-01/etc/jetty/jetty-http.xml
+2017-01-11 09:35:49,274+0530 INFO  [pool-15-thread-1] *SYSTEM org.sonatype.nexus.bootstrap.jetty.JettyServer - Applying configuration: file:/D:/ravi/nexus/nexus-3.2.0-01/etc/jetty/jetty-requestlog.xml
+2017-01-11 09:35:49,356+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.bootstrap.jetty.JettyServer - Starting: org.eclipse.jetty.server.Server@7d6a7ff6
+2017-01-11 09:35:49,406+0530 INFO  [jetty-main-1] *SYSTEM org.eclipse.jetty.server.Server - jetty-9.3.7.v20160115
+2017-01-11 09:35:49,736+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.bootstrap.osgi.BootstrapListener - Initializing
+2017-01-11 09:35:49,750+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.bootstrap.osgi.BootstrapListener - Loading OSS Edition
+2017-01-11 09:35:49,760+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.bootstrap.osgi.BootstrapListener - Installing: nexus-oss-edition/3.2.0.01
+2017-01-11 09:35:58,646+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.bootstrap.osgi.BootstrapListener - Installed: nexus-oss-edition/3.2.0.01
+2017-01-11 09:36:01,031+0530 INFO  [jetty-main-1] *SYSTEM org.apache.shiro.nexus.NexusWebSessionManager - Global session timeout: 1800000 ms
+2017-01-11 09:36:01,031+0530 INFO  [jetty-main-1] *SYSTEM org.apache.shiro.nexus.NexusWebSessionManager - Session-cookie prototype: name=NXSESSIONID
+2017-01-11 09:36:01,081+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.apache.tika.core [104]
+2017-01-11 09:36:01,350+0530 INFO  [jetty-main-1] *SYSTEM org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.2.Final
+2017-01-11 09:36:02,178+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.apache.tika.core [104]
+2017-01-11 09:36:02,211+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.common [126]
+2017-01-11 09:36:02,445+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.common [126]
+2017-01-11 09:36:02,447+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.hibernate.validator [110]
+2017-01-11 09:36:02,634+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.hibernate.validator [110]
+2017-01-11 09:36:02,656+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.commands [125]
+2017-01-11 09:36:02,849+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.commands [125]
+2017-01-11 09:36:02,860+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.crypto [127]
+2017-01-11 09:36:03,292+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.crypto [127]
+2017-01-11 09:36:03,295+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.jmx [135]
+2017-01-11 09:36:03,450+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.jmx [135]
+2017-01-11 09:36:03,453+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.orient [137]
+2017-01-11 09:36:03,932+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.orient [137]
+2017-01-11 09:36:03,935+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.security [144]
+2017-01-11 09:36:04,833+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.security [144]
+2017-01-11 09:36:04,838+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.base [119]
+2017-01-11 09:36:05,824+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.internal.metrics.MetricsModule - Metrics support configured
+2017-01-11 09:36:08,746+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.base [119]
+2017-01-11 09:36:08,766+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.blobstore-file [121]
+2017-01-11 09:36:09,035+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.blobstore-file [121]
+2017-01-11 09:36:09,041+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.cache [123]
+2017-01-11 09:36:09,151+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.cache [123]
+2017-01-11 09:36:09,158+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.capability [124]
+2017-01-11 09:36:09,312+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.capability [124]
+2017-01-11 09:36:09,441+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.email [128]
+2017-01-11 09:36:09,566+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.email [128]
+2017-01-11 09:36:09,642+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.extdirect [129]
+2017-01-11 09:36:09,915+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.extdirect [129]
+2017-01-11 09:36:09,958+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.httpclient [134]
+2017-01-11 09:36:10,137+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.httpclient [134]
+2017-01-11 09:36:10,141+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.oss-edition [138]
+2017-01-11 09:36:10,247+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.oss-edition [138]
+2017-01-11 09:36:10,280+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.rapture [140]
+2017-01-11 09:36:11,608+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.rapture [140]
+2017-01-11 09:36:11,611+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.rest-jackson2 [142]
+2017-01-11 09:36:11,734+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.rest-jackson2 [142]
+2017-01-11 09:36:11,762+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.scheduling [143]
+2017-01-11 09:36:11,902+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.scheduling [143]
+2017-01-11 09:36:11,924+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.siesta [146]
+2017-01-11 09:36:12,449+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.siesta [146]
+2017-01-11 09:36:12,452+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.upgrade [151]
+2017-01-11 09:36:12,595+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.upgrade [151]
+2017-01-11 09:36:12,664+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusLifecycleManager - Start LOGGING
+2017-01-11 09:36:12,684+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.internal.log.LogbackLoggerOverrides - File: D:\ravi\nexus\sonatype-work\nexus3\etc\logback\logback-overrides.xml
+2017-01-11 09:36:12,699+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.internal.log.LogbackLogManager - Configuring
+2017-01-11 09:36:12,733+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusContextListener - Installing: [nexus-oss-feature/3.2.0.01]
+2017-01-11 09:36:39,707+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.elasticsearch [185]
+2017-01-11 09:36:39,880+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.elasticsearch [185]
+2017-01-11 09:36:39,888+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.selector [195]
+2017-01-11 09:36:39,945+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.selector [195]
+2017-01-11 09:36:39,947+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.repository [193]
+2017-01-11 09:36:42,057+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.repository [193]
+2017-01-11 09:36:42,059+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.plugins.nexus-coreui-plugin [187]
+2017-01-11 09:36:46,844+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.plugins.nexus-coreui-plugin [187]
+2017-01-11 09:36:46,907+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.plugins.nexus-repository-raw [190]
+2017-01-11 09:36:47,133+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.plugins.nexus-repository-raw [190]
+2017-01-11 09:36:47,433+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.plugins.nexus-audit-plugin [186]
+2017-01-11 09:36:47,578+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.plugins.nexus-audit-plugin [186]
+2017-01-11 09:36:47,585+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.plugins.nexus-repository-maven [189]
+2017-01-11 09:36:47,972+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.plugins.nexus-repository-maven [189]
+2017-01-11 09:36:47,973+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.plugins.nexus-ssl-plugin [191]
+2017-01-11 09:36:48,163+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.plugins.nexus-ssl-plugin [191]
+2017-01-11 09:36:48,178+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.plugins.nexus-repository-httpbridge [188]
+2017-01-11 09:36:48,268+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.plugins.nexus-repository-httpbridge [188]
+2017-01-11 09:36:48,271+0530 INFO  [pool-32-thread-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.quartz [192]
+2017-01-11 09:36:48,433+0530 INFO  [pool-32-thread-1] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.quartz [192]
+2017-01-11 09:36:48,454+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.core [184]
+2017-01-11 09:36:49,070+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.core [184]
+2017-01-11 09:36:49,142+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.extender.NexusContextListener - Installed: [nexus-oss-feature/3.2.0.01]
+2017-01-11 09:36:49,167+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING wrap_file__D__ravi_nexus_nexus-3.2.0-01_system_com_sonatype_licensing_license-bundle_1.4.3_license-bundle-1.4.3.jar [234]
+2017-01-11 09:36:49,483+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED wrap_file__D__ravi_nexus_nexus-3.2.0-01_system_com_sonatype_licensing_license-bundle_1.4.3_license-bundle-1.4.3.jar [234]
+2017-01-11 09:36:49,486+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.licensing-extension [205]
+2017-01-11 09:36:49,683+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.licensing-extension [205]
+2017-01-11 09:36:49,712+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING wrap_file__D__ravi_nexus_nexus-3.2.0-01_system_com_sonatype_insight_scan_insight-scanner-model-io_2.4.1-01_insight-scanner-model-io-2.4.1-01.jar [232]
+2017-01-11 09:36:49,897+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED wrap_file__D__ravi_nexus_nexus-3.2.0-01_system_com_sonatype_insight_scan_insight-scanner-model-io_2.4.1-01_insight-scanner-model-io-2.4.1-01.jar [232]
+2017-01-11 09:36:49,923+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING wrap_file__D__ravi_nexus_nexus-3.2.0-01_system_com_sonatype_insight_scan_insight-scanner-core_2.4.1-01_insight-scanner-core-2.4.1-01.jar [231]
+2017-01-11 09:36:50,046+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED wrap_file__D__ravi_nexus_nexus-3.2.0-01_system_com_sonatype_insight_scan_insight-scanner-core_2.4.1-01_insight-scanner-core-2.4.1-01.jar [231]
+2017-01-11 09:36:50,076+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-healthcheck-base [208]
+2017-01-11 09:36:50,455+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-healthcheck-base [208]
+2017-01-11 09:36:50,458+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-ahc-plugin [206]
+2017-01-11 09:36:50,694+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-ahc-plugin [206]
+2017-01-11 09:36:50,698+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.rest-client [229]
+2017-01-11 09:36:50,777+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.rest-client [229]
+2017-01-11 09:36:50,779+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-analytics-plugin [207]
+2017-01-11 09:36:51,138+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-analytics-plugin [207]
+2017-01-11 09:36:51,144+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-healthcheck-oss-plugin [209]
+2017-01-11 09:36:51,230+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-healthcheck-oss-plugin [209]
+2017-01-11 09:36:51,239+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-ldap-plugin [210]
+2017-01-11 09:36:51,782+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-ldap-plugin [210]
+2017-01-11 09:36:51,807+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-licensing-plugin [211]
+2017-01-11 09:36:52,203+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-licensing-plugin [211]
+2017-01-11 09:36:52,236+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-repository-nuget [219]
+2017-01-11 09:36:52,737+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-repository-nuget [219]
+2017-01-11 09:36:52,751+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-repository-rubygems [221]
+2017-01-11 09:36:53,365+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-repository-rubygems [221]
+2017-01-11 09:36:53,421+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-migration-plugin [212]
+2017-01-11 09:36:54,061+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-migration-plugin [212]
+2017-01-11 09:36:54,068+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-outreach-plugin [213]
+2017-01-11 09:36:54,170+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-outreach-plugin [213]
+2017-01-11 09:36:54,173+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-proui-plugin [214]
+2017-01-11 09:36:54,225+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-proui-plugin [214]
+2017-01-11 09:36:54,225+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-proximanova-plugin [215]
+2017-01-11 09:36:54,255+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-proximanova-plugin [215]
+2017-01-11 09:36:54,255+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-repository-bower [216]
+2017-01-11 09:36:54,767+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-repository-bower [216]
+2017-01-11 09:36:54,770+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-repository-docker [217]
+2017-01-11 09:36:55,558+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-repository-docker [217]
+2017-01-11 09:36:55,563+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-repository-npm [218]
+2017-01-11 09:36:55,841+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-repository-npm [218]
+2017-01-11 09:36:55,843+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-repository-pypi [220]
+2017-01-11 09:36:56,017+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-repository-pypi [220]
+2017-01-11 09:36:56,018+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING com.sonatype.nexus.plugins.nexus-rutauth-plugin [222]
+2017-01-11 09:36:56,078+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED com.sonatype.nexus.plugins.nexus-rutauth-plugin [222]
+2017-01-11 09:36:56,094+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.plugins.nexus-script-plugin [228]
+2017-01-11 09:36:56,464+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.plugins.nexus-script-plugin [228]
+2017-01-11 09:36:56,472+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusLifecycleManager - Start STORAGE
+2017-01-11 09:37:03,376+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.internal.node.LocalNodeAccess - Generating certificate
+2017-01-11 09:37:04,471+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.internal.node.LocalNodeAccess - ID: EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77
+2017-01-11 09:37:04,471+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.internal.orient.DatabaseServerImpl - OrientDB version: 2.2.13
+2017-01-11 09:37:04,501+0530 INFO  [FelixStartLevel] *SYSTEM com.orientechnologies.orient.server.OServer - OrientDB Server v2.2.13 is starting up...
+2017-01-11 09:37:04,521+0530 INFO  [FelixStartLevel] *SYSTEM com.orientechnologies.orient.server.OServer - Databases directory: D:\ravi\nexus\sonatype-work\nexus3\db
+2017-01-11 09:37:05,457+0530 INFO  [FelixStartLevel] *SYSTEM com.orientechnologies - OrientDB auto-config DISKCACHE=787MB (heap=1,136MB direct=2,048MB os=3,971MB)
+2017-01-11 09:37:05,849+0530 INFO  [FelixStartLevel] *SYSTEM com.orientechnologies.orient.server.OSystemDatabase - $ANSI{green {db=OSystem}} Creating the system database 'OSystem' for current server
+2017-01-11 09:37:24,091+0530 WARN  [FelixStartLevel] *SYSTEM com.orientechnologies.orient.server.OServer - Found ORIENTDB_ROOT_PASSWORD variable, using this value as root's password
+2017-01-11 09:37:24,573+0530 INFO  [FelixStartLevel] *SYSTEM com.orientechnologies.orient.server.handler.OJMXPlugin - JMX plugin installed and active: profilerManaged=true
+2017-01-11 09:37:24,583+0530 INFO  [FelixStartLevel] *SYSTEM com.orientechnologies.orient.server.OServer - OrientDB Studio available at $ANSI{blue http://localhost:2480/studio/index.html}
+2017-01-11 09:37:24,583+0530 INFO  [FelixStartLevel] *SYSTEM com.orientechnologies.orient.server.OServer - $ANSI{green:italic OrientDB Server is active} v2.2.13.
+2017-01-11 09:37:24,583+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.internal.orient.DatabaseServerImpl - Activated
+2017-01-11 09:37:24,593+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusLifecycleManager - Start UPGRADE
+2017-01-11 09:37:37,563+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusLifecycleManager - Start SCHEMAS
+2017-01-11 09:38:40,524+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.internal.security.model.OrientSecurityConfigurationSource - Initializing default users
+2017-01-11 09:38:49,478+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.internal.security.model.OrientSecurityConfigurationSource - Initializing default user/role mappings
+2017-01-11 09:38:55,686+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusLifecycleManager - Start EVENTS
+2017-01-11 09:38:55,993+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.quartz.internal.QuartzSchedulerSPI - Thread-pool size: 20
+2017-01-11 09:38:59,787+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusLifecycleManager - Start SECURITY
+2017-01-11 09:38:59,922+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.security.internal.RealmManagerImpl - Using default configuration: RealmConfiguration{realmNames=[NexusAuthenticatingRealm, NexusAuthorizingRealm]}
+2017-01-11 09:38:59,990+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.cache.internal.RuntimeCacheManagerProvider - Cache-provider: ehcache
+2017-01-11 09:39:00,090+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.cache.internal.ehcache.EhCacheManagerProvider - Creating cache-manager with configuration: file:/D:/ravi/nexus/nexus-3.2.0-01/etc/fabric/ehcache.xml
+2017-01-11 09:39:01,548+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusLifecycleManager - Start SERVICES
+2017-01-11 09:39:36,604+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.blobstore.file.internal.BlobStoreMetricsStoreImpl - Blob store metrics file D:\ravi\nexus\sonatype-work\nexus3\blobs\default\metrics.properties not found - initializing at zero.
+2017-01-11 09:40:08,712+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.internal.httpclient.HttpClientManagerImpl - Using default configuration: HttpClientConfiguration{connection=null, proxy=null, authentication=null}
+2017-01-11 09:40:09,532+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.elasticsearch.internal.NodeProvider - Creating node with config: D:\ravi\nexus\nexus-3.2.0-01\etc\fabric\elasticsearch.yml
+2017-01-11 09:40:14,021+0530 INFO  [FelixStartLevel] *SYSTEM org.elasticsearch.node - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] version[2.2.0], pid[3008], build[8ff36d1/2016-01-27T13:32:39Z]
+2017-01-11 09:40:14,021+0530 INFO  [FelixStartLevel] *SYSTEM org.elasticsearch.node - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] initializing ...
+2017-01-11 09:40:14,142+0530 INFO  [FelixStartLevel] *SYSTEM org.elasticsearch.plugins - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] modules [], plugins [content-auth-plugin], sites []
+2017-01-11 09:40:14,372+0530 INFO  [FelixStartLevel] *SYSTEM org.elasticsearch.env - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] using [1] data paths, mounts [[ganesh (D:)]], net usable_space [164.3gb], net total_space [192.3gb], spins? [unknown], types [NTFS]
+2017-01-11 09:40:14,382+0530 INFO  [FelixStartLevel] *SYSTEM org.elasticsearch.env - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] heap size [1.1gb], compressed ordinary object pointers [true]
+2017-01-11 09:40:22,800+0530 INFO  [FelixStartLevel] *SYSTEM org.elasticsearch.node - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] initialized
+2017-01-11 09:40:22,800+0530 INFO  [FelixStartLevel] *SYSTEM org.elasticsearch.node - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] starting ...
+2017-01-11 09:40:22,800+0530 INFO  [FelixStartLevel] *SYSTEM org.elasticsearch.transport - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] publish_address {local[1]}, bound_addresses {local[1]}
+2017-01-11 09:40:22,840+0530 INFO  [FelixStartLevel] *SYSTEM org.elasticsearch.discovery - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] nexus/G0KEP8aFSDmDFuc2t7we5g
+2017-01-11 09:40:22,860+0530 INFO  [elasticsearch[EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77][clusterService#updateTask][T#1]] *SYSTEM org.elasticsearch.cluster.service - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] master {new {EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77}{G0KEP8aFSDmDFuc2t7we5g}{local}{local[1]}{local=true, master=true}}, removed {{EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77}{LnoZdD2PTUCwyn83_pGttQ}{local}{local[1]}{local=true, master=true},}, reason: local-disco-initial_connect(master)
+2017-01-11 09:40:22,870+0530 INFO  [FelixStartLevel] *SYSTEM org.elasticsearch.node - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] started
+2017-01-11 09:40:23,210+0530 INFO  [elasticsearch[EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77][clusterService#updateTask][T#1]] *SYSTEM org.elasticsearch.gateway - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] recovered [0] indices into cluster_state
+2017-01-11 09:40:24,513+0530 INFO  [elasticsearch[EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77][clusterService#updateTask][T#1]] *SYSTEM org.elasticsearch.cluster.metadata - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] [2e9a1e67e8a325bcd6ee9f6790ff6c769e791d56] creating index, cause [api], templates [], shards [1]/[0], mappings [component]
+2017-01-11 09:40:26,203+0530 INFO  [elasticsearch[EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77][clusterService#updateTask][T#1]] *SYSTEM org.elasticsearch.cluster.metadata - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] [73ae44bc066b6a7a33b4435641d8229b9b66495a] creating index, cause [api], templates [], shards [1]/[0], mappings [component]
+2017-01-11 09:40:26,303+0530 INFO  [elasticsearch[EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77][clusterService#updateTask][T#1]] *SYSTEM org.elasticsearch.cluster.metadata - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] [51196dce51055df9247e1973e443b68c84549dd9] creating index, cause [api], templates [], shards [1]/[0], mappings [component]
+2017-01-11 09:40:26,445+0530 INFO  [elasticsearch[EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77][clusterService#updateTask][T#1]] *SYSTEM org.elasticsearch.cluster.metadata - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] [3d781e8165513bfe7db3d7eaab3991b9ebec763b] creating index, cause [api], templates [], shards [1]/[0], mappings [component]
+2017-01-11 09:40:26,537+0530 INFO  [elasticsearch[EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77][clusterService#updateTask][T#1]] *SYSTEM org.elasticsearch.cluster.metadata - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] [b2b9b8f06274052a44b61ef3c7e887f0961d99c6] creating index, cause [api], templates [], shards [1]/[0], mappings [component]
+2017-01-11 09:40:27,397+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.quartz.internal.orient.JobStoreImpl - Instance name: nexus; ID: EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77
+2017-01-11 09:40:28,657+0530 INFO  [elasticsearch[EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77][clusterService#updateTask][T#1]] *SYSTEM org.elasticsearch.cluster.routing.allocation - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[b2b9b8f06274052a44b61ef3c7e887f0961d99c6][0]] ...]).
+2017-01-11 09:40:38,851+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.quartz.internal.orient.JobStoreImpl - Initialized
+2017-01-11 09:40:38,951+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.quartz.internal.QuartzSchedulerSPI - Quartz Scheduler v2.2.2
+2017-01-11 09:40:39,011+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusLifecycleManager - Start CAPABILITIES
+2017-01-11 09:40:42,694+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.extender.NexusLifecycleManager - Start TASKS
+2017-01-11 09:40:42,714+0530 INFO  [FelixStartLevel] *SYSTEM org.sonatype.nexus.quartz.internal.QuartzSchedulerSPI - Scheduler put into ready mode
+2017-01-11 09:40:43,044+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.bootstrap.osgi.BootstrapListener - Initialized
+2017-01-11 09:40:43,054+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.rapture.internal.RaptureWebResourceBundle - UI plugin descriptors:
+2017-01-11 09:40:43,064+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.rapture.internal.RaptureWebResourceBundle -   nexus-rapture
+2017-01-11 09:40:43,064+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.rapture.internal.RaptureWebResourceBundle -   nexus-proximanova-plugin
+2017-01-11 09:40:43,064+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.rapture.internal.RaptureWebResourceBundle -   nexus-coreui-plugin
+2017-01-11 09:40:43,064+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.rapture.internal.RaptureWebResourceBundle -   nexus-proui-plugin
+2017-01-11 09:40:43,074+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.internal.webresources.WebResourceServlet - Max-age: 30 days (2592000 seconds)
+2017-01-11 09:40:43,174+0530 INFO  [jetty-main-1] *SYSTEM com.softwarementors.extjs.djn.servlet.DirectJNgineServlet - Servlet GLOBAL configuration: debug=false, providersUrl=service/extdirect, minify=false, batchRequestsMultithreadingEnabled=true, batchRequestsMinThreadsPoolSize=16, batchRequestsMaxThreadsPoolSize=80, batchRequestsMaxThreadsPerRequest=8, batchRequestsMaxThreadKeepAliveSeconds=60, gsonBuilderConfiguratorClass=org.sonatype.nexus.extdirect.internal.ExtDirectGsonBuilderConfigurator, dispatcherClass=com.softwarementors.extjs.djn.servlet.ssm.SsmDispatcher, jsonRequestProcessorThreadClass=org.sonatype.nexus.extdirect.internal.ExtDirectJsonRequestProcessorThread, contextPath=--not specified: calculated via Javascript--, createSourceFiles=true
+2017-01-11 09:40:43,184+0530 INFO  [jetty-main-1] *SYSTEM com.softwarementors.extjs.djn.servlet.DirectJNgineServlet - Servlet GLOBAL configuration: registryConfiguratorClass=
+2017-01-11 09:40:43,354+0530 INFO  [jetty-main-1] *SYSTEM com.softwarementors.extjs.djn.jscodegen.CodeFileGenerator - Creating source files for APIs...
+2017-01-11 09:40:46,898+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.siesta.SiestaServlet - JAX-RS RuntimeDelegate: org.sonatype.nexus.siesta.internal.resteasy.SisuResteasyProviderFactory@5b7e6ef3
+2017-01-11 09:40:47,465+0530 INFO  [jetty-main-1] *SYSTEM org.jboss.resteasy.plugins.validation.i18n - RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+2017-01-11 09:40:47,535+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.siesta.SiestaServlet - Initialized
+2017-01-11 09:40:47,545+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.repository.httpbridge.internal.ViewServlet - Initialized
+2017-01-11 09:40:47,785+0530 INFO  [jetty-main-1] *SYSTEM org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@50189443{/,file:///D:/ravi/nexus/nexus-3.2.0-01/public/,AVAILABLE}
+2017-01-11 09:40:48,615+0530 INFO  [jetty-main-1] *SYSTEM org.eclipse.jetty.server.ServerConnector - Started ServerConnector@1b0fa8f8{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+2017-01-11 09:40:48,615+0530 INFO  [jetty-main-1] *SYSTEM org.eclipse.jetty.server.Server - Started @317053ms
+2017-01-11 09:40:48,615+0530 INFO  [jetty-main-1] *SYSTEM org.sonatype.nexus.bootstrap.jetty.JettyServer - 
+-------------------------------------------------
+
+Started Sonatype Nexus OSS 3.2.0-01
+
+-------------------------------------------------
+2017-01-11 09:41:05,589+0530 INFO  [qtp120303654-102] *UNKNOWN org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Enabling session validation scheduler...
+2017-01-11 09:41:05,610+0530 INFO  [qtp120303654-102] *UNKNOWN org.sonatype.nexus.internal.security.anonymous.AnonymousManagerImpl - Using default configuration: AnonymousConfiguration{enabled=true, userId='anonymous', realmName='NexusAuthorizingRealm'}
+2017-01-11 09:41:09,339+0530 INFO  [qtp120303654-103] *UNKNOWN com.sonatype.nexus.analytics.internal.EventSubmitterImpl - Service URL: https://analytics.sonatype.com
+2017-01-11 09:41:55,241+0530 INFO  [qtp120303654-100] admin org.sonatype.nexus.rapture.internal.security.SessionServlet - Created session for user: admin
+2017-01-11 09:46:23,431+0530 INFO  [elasticsearch[EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77][clusterService#updateTask][T#1]] *SYSTEM org.elasticsearch.cluster.metadata - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] [63a84ef5337df62d6f752fd92124cc05bf407065] creating index, cause [api], templates [], shards [1]/[0], mappings [component]
+2017-01-11 09:46:23,591+0530 INFO  [elasticsearch[EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77][clusterService#updateTask][T#1]] *SYSTEM org.elasticsearch.cluster.routing.allocation - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[63a84ef5337df62d6f752fd92124cc05bf407065][0]] ...]).
+2017-01-11 09:46:48,915+0530 INFO  [qtp120303654-97] admin org.sonatype.nexus.quartz.internal.task.QuartzTaskInfo - Task 'Rebuild repository index' [repository.rebuild-index] : state=RUNNING
+2017-01-11 09:46:49,175+0530 INFO  [qtp120303654-97] admin org.sonatype.nexus.scheduling.internal.TaskSchedulerImpl - Task 'Rebuild repository index' [repository.rebuild-index] scheduled: now
+2017-01-11 09:46:49,292+0530 INFO  [quartz-3-thread-1] *TASK org.sonatype.nexus.repository.search.SearchFacetImpl - Rebuilding index of repository artifacts
+2017-01-11 09:46:49,385+0530 INFO  [elasticsearch[EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77][clusterService#updateTask][T#1]] *SYSTEM org.elasticsearch.cluster.metadata - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] [63a84ef5337df62d6f752fd92124cc05bf407065] creating index, cause [api], templates [], shards [1]/[0], mappings [component]
+2017-01-11 09:46:49,451+0530 INFO  [quartz-3-thread-1] *TASK org.sonatype.nexus.quartz.internal.task.QuartzTaskInfo - Task 'Rebuild repository index' [repository.rebuild-index] state change RUNNING -> DONE (OK)
+2017-01-11 09:46:49,547+0530 INFO  [elasticsearch[EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77][clusterService#updateTask][T#1]] *SYSTEM org.elasticsearch.cluster.routing.allocation - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[63a84ef5337df62d6f752fd92124cc05bf407065][0]] ...]).
+2017-01-11 09:46:51,670+0530 INFO  [qtp120303654-98] admin org.sonatype.nexus.quartz.internal.task.QuartzTaskInfo - Task 'Rebuild repository index' [repository.rebuild-index] : state=RUNNING
+2017-01-11 09:46:51,709+0530 INFO  [qtp120303654-98] admin org.sonatype.nexus.scheduling.internal.TaskSchedulerImpl - Task 'Rebuild repository index' [repository.rebuild-index] scheduled: now
+2017-01-11 09:46:51,719+0530 INFO  [quartz-3-thread-2] *TASK org.sonatype.nexus.repository.search.SearchFacetImpl - Rebuilding index of repository artifacts
+2017-01-11 09:46:51,749+0530 INFO  [elasticsearch[EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77][clusterService#updateTask][T#1]] *SYSTEM org.elasticsearch.cluster.metadata - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] [63a84ef5337df62d6f752fd92124cc05bf407065] creating index, cause [api], templates [], shards [1]/[0], mappings [component]
+2017-01-11 09:46:51,839+0530 INFO  [quartz-3-thread-2] *TASK org.sonatype.nexus.quartz.internal.task.QuartzTaskInfo - Task 'Rebuild repository index' [repository.rebuild-index] state change RUNNING -> DONE (OK)
+2017-01-11 09:46:51,979+0530 INFO  [elasticsearch[EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77][clusterService#updateTask][T#1]] *SYSTEM org.elasticsearch.cluster.routing.allocation - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[63a84ef5337df62d6f752fd92124cc05bf407065][0]] ...]).
+2017-01-11 10:13:57,144+0530 INFO  [elasticsearch[EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77][clusterService#updateTask][T#1]] *SYSTEM org.elasticsearch.cluster.metadata - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] [63a84ef5337df62d6f752fd92124cc05bf407065] update_mapping [component]
+2017-01-11 10:23:22,462+0530 INFO  [qtp120303654-98] admin org.sonatype.nexus.repository.storage.SingleAssetComponentMaintenance - Deleting component: Component{metadata=AttachedEntityMetadata{schema=component, document=component#23:1{bucket:#20:1,format:raw,last_updated:Wed Jan 11 10:13:57 IST 2017,attributes:[0],group:/com/mycompany/app/my-app/1.0-SNAPSHOT,name:com/mycompany/app/my-app/1.0-SNAPSHOT/maven-metadata.xml,version:null} v1}, name=com/mycompany/app/my-app/1.0-SNAPSHOT/maven-metadata.xml, version=null, group=/com/mycompany/app/my-app/1.0-SNAPSHOT}
+2017-01-11 10:23:28,729+0530 INFO  [qtp120303654-99] admin org.sonatype.nexus.repository.storage.SingleAssetComponentMaintenance - Deleting component: Component{metadata=AttachedEntityMetadata{schema=component, document=component#21:2{bucket:#20:1,format:raw,last_updated:Wed Jan 11 10:13:57 IST 2017,attributes:[0],group:/com/mycompany/app/my-app/1.0-SNAPSHOT,name:com/mycompany/app/my-app/1.0-SNAPSHOT/maven-metadata.xml.md5,version:null} v1}, name=com/mycompany/app/my-app/1.0-SNAPSHOT/maven-metadata.xml.md5, version=null, group=/com/mycompany/app/my-app/1.0-SNAPSHOT}
+2017-01-11 10:23:45,748+0530 INFO  [qtp120303654-102] admin org.sonatype.nexus.repository.storage.SingleAssetComponentMaintenance - Deleting component: Component{metadata=AttachedEntityMetadata{schema=component, document=component#24:1{bucket:#20:1,format:raw,last_updated:Wed Jan 11 10:13:57 IST 2017,attributes:[0],group:/com/mycompany/app/my-app/1.0-SNAPSHOT,name:com/mycompany/app/my-app/1.0-SNAPSHOT/maven-metadata.xml.sha1,version:null} v1}, name=com/mycompany/app/my-app/1.0-SNAPSHOT/maven-metadata.xml.sha1, version=null, group=/com/mycompany/app/my-app/1.0-SNAPSHOT}
+2017-01-11 10:23:52,041+0530 INFO  [qtp120303654-99] admin org.sonatype.nexus.repository.storage.SingleAssetComponentMaintenance - Deleting component: Component{metadata=AttachedEntityMetadata{schema=component, document=component#21:0{bucket:#20:1,format:raw,last_updated:Wed Jan 11 10:13:56 IST 2017,attributes:[0],group:/com/mycompany/app/my-app/1.0-SNAPSHOT,name:com/mycompany/app/my-app/1.0-SNAPSHOT/my-app-1.0-20170111.044356-1.jar,version:null} v1}, name=com/mycompany/app/my-app/1.0-SNAPSHOT/my-app-1.0-20170111.044356-1.jar, version=null, group=/com/mycompany/app/my-app/1.0-SNAPSHOT}
+2017-01-11 10:23:57,660+0530 INFO  [qtp120303654-99] admin org.sonatype.nexus.repository.storage.SingleAssetComponentMaintenance - Deleting component: Component{metadata=AttachedEntityMetadata{schema=component, document=component#23:0{bucket:#20:1,format:raw,last_updated:Wed Jan 11 10:13:57 IST 2017,attributes:[0],group:/com/mycompany/app/my-app/1.0-SNAPSHOT,name:com/mycompany/app/my-app/1.0-SNAPSHOT/my-app-1.0-20170111.044356-1.jar.md5,version:null} v1}, name=com/mycompany/app/my-app/1.0-SNAPSHOT/my-app-1.0-20170111.044356-1.jar.md5, version=null, group=/com/mycompany/app/my-app/1.0-SNAPSHOT}
+2017-01-11 10:24:04,467+0530 INFO  [qtp120303654-97] admin org.sonatype.nexus.repository.storage.SingleAssetComponentMaintenance - Deleting component: Component{metadata=AttachedEntityMetadata{schema=component, document=component#22:0{bucket:#20:1,format:raw,last_updated:Wed Jan 11 10:13:57 IST 2017,attributes:[0],group:/com/mycompany/app/my-app/1.0-SNAPSHOT,name:com/mycompany/app/my-app/1.0-SNAPSHOT/my-app-1.0-20170111.044356-1.jar.sha1,version:null} v1}, name=com/mycompany/app/my-app/1.0-SNAPSHOT/my-app-1.0-20170111.044356-1.jar.sha1, version=null, group=/com/mycompany/app/my-app/1.0-SNAPSHOT}
+2017-01-11 10:25:40,502+0530 INFO  [qtp120303654-98] admin org.sonatype.nexus.repository.storage.SingleAssetComponentMaintenance - Deleting component: Component{metadata=AttachedEntityMetadata{schema=component, document=component#24:0{bucket:#20:1,format:raw,last_updated:Wed Jan 11 10:13:57 IST 2017,attributes:[0],group:/com/mycompany/app/my-app/1.0-SNAPSHOT,name:com/mycompany/app/my-app/1.0-SNAPSHOT/my-app-1.0-20170111.044356-1.pom,version:null} v1}, name=com/mycompany/app/my-app/1.0-SNAPSHOT/my-app-1.0-20170111.044356-1.pom, version=null, group=/com/mycompany/app/my-app/1.0-SNAPSHOT}
+2017-01-11 10:25:46,339+0530 INFO  [qtp120303654-102] admin org.sonatype.nexus.repository.storage.SingleAssetComponentMaintenance - Deleting component: Component{metadata=AttachedEntityMetadata{schema=component, document=component#22:1{bucket:#20:1,format:raw,last_updated:Wed Jan 11 10:13:57 IST 2017,attributes:[0],group:/com/mycompany/app/my-app/1.0-SNAPSHOT,name:com/mycompany/app/my-app/1.0-SNAPSHOT/my-app-1.0-20170111.044356-1.pom.md5,version:null} v1}, name=com/mycompany/app/my-app/1.0-SNAPSHOT/my-app-1.0-20170111.044356-1.pom.md5, version=null, group=/com/mycompany/app/my-app/1.0-SNAPSHOT}
+2017-01-11 10:25:52,346+0530 INFO  [qtp120303654-103] admin org.sonatype.nexus.repository.storage.SingleAssetComponentMaintenance - Deleting component: Component{metadata=AttachedEntityMetadata{schema=component, document=component#21:1{bucket:#20:1,format:raw,last_updated:Wed Jan 11 10:13:57 IST 2017,attributes:[0],group:/com/mycompany/app/my-app/1.0-SNAPSHOT,name:com/mycompany/app/my-app/1.0-SNAPSHOT/my-app-1.0-20170111.044356-1.pom.sha1,version:null} v1}, name=com/mycompany/app/my-app/1.0-SNAPSHOT/my-app-1.0-20170111.044356-1.pom.sha1, version=null, group=/com/mycompany/app/my-app/1.0-SNAPSHOT}
+2017-01-11 10:25:58,137+0530 INFO  [qtp120303654-243] admin org.sonatype.nexus.repository.storage.SingleAssetComponentMaintenance - Deleting component: Component{metadata=AttachedEntityMetadata{schema=component, document=component#22:2{bucket:#20:1,format:raw,last_updated:Wed Jan 11 10:13:57 IST 2017,attributes:[0],group:/com/mycompany/app/my-app,name:com/mycompany/app/my-app/maven-metadata.xml,version:null} v1}, name=com/mycompany/app/my-app/maven-metadata.xml, version=null, group=/com/mycompany/app/my-app}
+2017-01-11 10:26:03,759+0530 INFO  [qtp120303654-103] admin org.sonatype.nexus.repository.storage.SingleAssetComponentMaintenance - Deleting component: Component{metadata=AttachedEntityMetadata{schema=component, document=component#24:2{bucket:#20:1,format:raw,last_updated:Wed Jan 11 10:13:57 IST 2017,attributes:[0],group:/com/mycompany/app/my-app,name:com/mycompany/app/my-app/maven-metadata.xml.md5,version:null} v1}, name=com/mycompany/app/my-app/maven-metadata.xml.md5, version=null, group=/com/mycompany/app/my-app}
+2017-01-11 10:26:09,817+0530 INFO  [qtp120303654-243] admin org.sonatype.nexus.repository.storage.SingleAssetComponentMaintenance - Deleting component: Component{metadata=AttachedEntityMetadata{schema=component, document=component#23:2{bucket:#20:1,format:raw,last_updated:Wed Jan 11 10:13:57 IST 2017,attributes:[0],group:/com/mycompany/app/my-app,name:com/mycompany/app/my-app/maven-metadata.xml.sha1,version:null} v1}, name=com/mycompany/app/my-app/maven-metadata.xml.sha1, version=null, group=/com/mycompany/app/my-app}
+2017-01-11 10:29:35,325+0530 INFO  [elasticsearch[EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77][clusterService#updateTask][T#1]] *SYSTEM org.elasticsearch.cluster.metadata - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] [63a84ef5337df62d6f752fd92124cc05bf407065] update_mapping [component]
+2017-01-11 10:36:43,477+0530 INFO  [qtp120303654-99] admin org.sonatype.nexus.quartz.internal.task.QuartzTaskInfo - Task 'Rebuild repository index' [repository.rebuild-index] : state=RUNNING
+2017-01-11 10:36:43,486+0530 INFO  [qtp120303654-99] admin org.sonatype.nexus.scheduling.internal.TaskSchedulerImpl - Task 'Rebuild repository index' [repository.rebuild-index] scheduled: now
+2017-01-11 10:36:43,505+0530 INFO  [quartz-3-thread-3] *TASK org.sonatype.nexus.repository.search.SearchFacetImpl - Rebuilding index of repository artifacts
+2017-01-11 10:36:43,596+0530 INFO  [elasticsearch[EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77][clusterService#updateTask][T#1]] *SYSTEM org.elasticsearch.cluster.metadata - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] [63a84ef5337df62d6f752fd92124cc05bf407065] creating index, cause [api], templates [], shards [1]/[0], mappings [component]
+2017-01-11 10:36:43,713+0530 INFO  [quartz-3-thread-3] *TASK org.sonatype.nexus.quartz.internal.task.QuartzTaskInfo - Task 'Rebuild repository index' [repository.rebuild-index] state change RUNNING -> DONE (OK)
+2017-01-11 10:36:43,748+0530 INFO  [elasticsearch[EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77][clusterService#updateTask][T#1]] *SYSTEM org.elasticsearch.cluster.routing.allocation - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[63a84ef5337df62d6f752fd92124cc05bf407065][0]] ...]).
+2017-01-11 10:36:43,842+0530 INFO  [elasticsearch[EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77][clusterService#updateTask][T#1]] *SYSTEM org.elasticsearch.cluster.metadata - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] [63a84ef5337df62d6f752fd92124cc05bf407065] update_mapping [component]
+2017-01-11 10:41:05,673+0530 INFO  [SessionValidationThread-1] *UNKNOWN org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Validating all active sessions...
+2017-01-11 10:41:05,713+0530 INFO  [SessionValidationThread-1] *UNKNOWN org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Finished session validation.  No sessions were stopped.
+2017-01-11 10:53:54,337+0530 WARN  [SIGINT handler] *SYSTEM com.orientechnologies.orient.core.OSignalHandler - Received signal: SIGINT
+2017-01-11 10:53:54,347+0530 INFO  [Thread-5] *SYSTEM org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@1b0fa8f8{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+2017-01-11 10:53:54,357+0530 INFO  [Thread-5] *SYSTEM org.sonatype.nexus.repository.httpbridge.internal.ViewServlet - Destroyed
+2017-01-11 10:53:54,357+0530 INFO  [Thread-5] *SYSTEM org.sonatype.nexus.siesta.SiestaServlet - Destroyed
+2017-01-11 10:53:54,357+0530 INFO  [Thread-5] *SYSTEM org.sonatype.nexus.bootstrap.osgi.BootstrapListener - Destroying
+2017-01-11 10:53:54,357+0530 INFO  [Thread-5] *SYSTEM org.sonatype.nexus.extender.NexusContextListener - Uptime: 1 hour, 18 minutes, 22 seconds and 701 milliseconds
+2017-01-11 10:53:54,367+0530 INFO  [Thread-5] *SYSTEM org.sonatype.nexus.extender.NexusLifecycleManager - Stop TASKS
+2017-01-11 10:53:54,387+0530 INFO  [Thread-5] *SYSTEM org.sonatype.nexus.quartz.internal.QuartzSchedulerSPI - Scheduler put into stand-by mode
+2017-01-11 10:53:54,387+0530 INFO  [Thread-5] *SYSTEM org.sonatype.nexus.extender.NexusLifecycleManager - Stop CAPABILITIES
+2017-01-11 10:53:54,387+0530 INFO  [Thread-5] *SYSTEM org.sonatype.nexus.extender.NexusLifecycleManager - Stop SERVICES
+2017-01-11 10:53:55,967+0530 INFO  [Thread-5] *SYSTEM org.sonatype.nexus.extender.NexusLifecycleManager - Stop SECURITY
+2017-01-11 10:53:55,967+0530 INFO  [Thread-5] *SYSTEM org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Disabled session validation scheduler.
+2017-01-11 10:53:55,967+0530 INFO  [Thread-5] *SYSTEM org.sonatype.nexus.extender.NexusLifecycleManager - Stop EVENTS
+2017-01-11 10:53:55,967+0530 INFO  [Thread-5] *SYSTEM org.sonatype.nexus.extender.NexusLifecycleManager - Stop SCHEMAS
+2017-01-11 10:53:55,977+0530 INFO  [Thread-5] *SYSTEM org.sonatype.nexus.extender.NexusLifecycleManager - Stop UPGRADE
+2017-01-11 10:53:55,977+0530 INFO  [Thread-5] *SYSTEM org.sonatype.nexus.extender.NexusLifecycleManager - Stop STORAGE
+2017-01-11 10:53:55,977+0530 INFO  [Thread-5] *SYSTEM org.sonatype.nexus.internal.orient.DatabaseManagerImpl - Stopping 6 pools
+2017-01-11 10:53:55,977+0530 INFO  [Thread-5] *SYSTEM org.sonatype.nexus.internal.orient.DatabaseManagerImpl - Stopping pool: analytics
+2017-01-11 10:53:55,977+0530 INFO  [Thread-5] *SYSTEM org.sonatype.nexus.internal.orient.DatabaseManagerImpl - Stopping pool: security
+2017-01-11 10:53:55,977+0530 INFO  [Thread-5] *SYSTEM org.sonatype.nexus.internal.orient.DatabaseManagerImpl - Stopping pool: component
+2017-01-11 10:53:55,987+0530 INFO  [Thread-5] *SYSTEM org.sonatype.nexus.internal.orient.DatabaseManagerImpl - Stopping pool: audit
+2017-01-11 10:53:55,987+0530 INFO  [Thread-5] *SYSTEM org.sonatype.nexus.internal.orient.DatabaseManagerImpl - Stopping pool: config
+2017-01-11 10:53:55,987+0530 INFO  [Thread-5] *SYSTEM org.sonatype.nexus.internal.orient.DatabaseManagerImpl - Stopping pool: accesslog
+2017-01-11 10:53:55,987+0530 INFO  [Thread-5] *SYSTEM org.sonatype.nexus.internal.orient.DatabaseManagerImpl - Stopping 6 instances
+2017-01-11 10:53:55,987+0530 INFO  [Thread-5] *SYSTEM org.sonatype.nexus.internal.orient.DatabaseManagerImpl - Stopping instance: analytics
+2017-01-11 10:53:55,987+0530 INFO  [Thread-5] *SYSTEM org.sonatype.nexus.internal.orient.DatabaseManagerImpl - Stopping instance: security
+2017-01-11 10:53:55,987+0530 INFO  [Thread-5] *SYSTEM org.sonatype.nexus.internal.orient.DatabaseManagerImpl - Stopping instance: component
+2017-01-11 10:53:55,997+0530 INFO  [Thread-5] *SYSTEM org.sonatype.nexus.internal.orient.DatabaseManagerImpl - Stopping instance: audit
+2017-01-11 10:53:55,997+0530 INFO  [Thread-5] *SYSTEM org.sonatype.nexus.internal.orient.DatabaseManagerImpl - Stopping instance: config
+2017-01-11 10:53:55,997+0530 INFO  [Thread-5] *SYSTEM org.sonatype.nexus.internal.orient.DatabaseManagerImpl - Stopping instance: accesslog
+2017-01-11 10:53:57,539+0530 INFO  [Thread-5] *SYSTEM org.sonatype.nexus.internal.orient.DatabaseServerImpl - Shutdown
+2017-01-11 10:53:57,549+0530 INFO  [Thread-5] *SYSTEM org.elasticsearch.node - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] stopping ...
+2017-01-11 10:53:57,569+0530 INFO  [Thread-5] *SYSTEM org.elasticsearch.node - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] stopped
+2017-01-11 10:53:57,569+0530 INFO  [Thread-5] *SYSTEM org.elasticsearch.node - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] closing ...
+2017-01-11 10:53:57,579+0530 INFO  [Thread-5] *SYSTEM org.elasticsearch.node - [EEFE0E5E-8E420FCC-331AF0C4-BB5DA094-1CFB2C77] closed
+2017-01-11 10:53:57,609+0530 INFO  [Thread-5] *SYSTEM org.sonatype.nexus.cache.internal.ehcache.EhCacheManagerProvider - Cache-manager closed
+2017-01-11 10:53:57,609+0530 INFO  [Thread-5] *SYSTEM org.sonatype.nexus.extender.NexusLifecycleManager - Stop LOGGING
